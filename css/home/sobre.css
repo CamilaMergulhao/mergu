@@ -1,0 +1,111 @@
+.sobre-bg{
+background-color: var(--cor-0);
+cursor: url('../../img/icones/mergu.png'), auto;
+}
+    
+
+
+
+    
+.sobre{
+padding-top: 150px;
+padding-bottom: 80px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: start;
+}
+      
+
+
+
+.sobre-texto-p{
+margin-bottom: 30px;
+}
+
+
+
+.sobre-titulo{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+
+
+.link-strava{
+display: inline-block;
+border: 2px solid var(--cor-brand);
+padding: 10px 15px;
+display: flex;
+justify-self: center;
+max-width: max-content;
+}
+  
+
+.link-strava:hover {
+background-color: var(--cor-brand); 
+}
+
+.link-strava:hover .mudar path {
+fill: var(--cor-0); 
+}
+
+
+
+
+@media (max-width: 1100px){
+.sobre{
+margin-left: 20px;
+margin-right: 20px;
+
+}
+}
+
+
+@media(max-width: 768px){
+.sobre-texto-p{
+margin-bottom: 20px;
+}
+
+.sobre{
+padding-top: 100px;
+padding-bottom: 100px;
+display: grid;
+grid-template-columns: 1fr;
+padding-left: 100px;
+padding-right: 100px;
+}
+      
+.sobre-titulo{
+display: block;
+gap: 10px;
+margin-bottom: 30px;
+}
+}
+
+
+@media(max-width: 660px){
+.sobre{
+padding-left: 60px;
+padding-right: 60px;
+}
+}
+
+
+@media(max-width: 560px){
+.sobre{
+padding-top: 80px;
+padding-bottom: 80px;
+padding-left: 40px;
+padding-right: 40px;
+}
+}
+
+@media(max-width: 470px){
+.sobre{
+padding-top: 80px;
+padding-bottom: 80px;
+padding-left: 20px;
+padding-right: 20px;
+}
+}

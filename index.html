@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Geral -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mergu - Desenvolvedora web e Designer</title>
+    <meta name="description" content="Desenvolvimento de sites, lojas virtuais, UI design e design de marcas. Atendo clientes de todo o Brasil.">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/android-chrome-512x512.png" type="image/x-icon">
+   
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+ 
+<body>
+
+    <header class="header-bg">
+    
+        <nav class="header-nav container-header" id="nav" aria-label="primaria">
+        
+    <a href="./" class="logo-mergu-link">
+        <svg width="126" height="59" viewBox="0 0 126 59" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-mergu">
+            <path d="M17.3364 0L12.5307 27.375L11.3643 34.4243L10.2043 27.7893L5.30928 0L4.72928 0.082858H0V58.3957H5.30928V30.855L8.62998 49.855H14.0221L17.4193 30.4407V58.4786H22.7286V0.082858H18.0057L17.3364 0Z" fill="#FF0000"/>
+            <path d="M46.7032 0.16571H36.8368H32.6875V58.4786H37.9968H46.7032V53.1693H37.9968V31.7665H45.0461V26.4636H37.9968V5.47499H46.7032V0.16571Z" fill="#FF0000"/>
+            <path d="M70.0984 0.16571H56.6562V58.4786H61.9655V32.1871H67.8548V58.4786H73.247V32.0214L70.5127 29.3636L73.247 26.6293V3.23783L70.0984 0.16571ZM67.8548 5.47499V26.7121H61.9655V5.47499H67.8548Z" fill="#FF0000"/>
+            <path d="M86.3517 0.16571L83.2031 3.23783V55.4129L86.3517 58.4786H96.4731L99.6281 55.4129V31.8493H91.1639V37.1586H94.236V53.1693H88.5124V5.47499H94.236V16.7564H99.6281V3.23783L96.4731 0.16571H86.3517Z" fill="#FF0000"/>
+            <path d="M126.003 0.16571H120.611V53.1693H114.887V0.16571H109.578V55.4129L112.733 58.4786H122.855L126.003 55.4129V0.16571Z" fill="#FF0000"/>
+            </svg>
+            
+    </a>
+    <a href="./" class="logo-mergu-link-scroll">
+        <svg width="126" height="59" viewBox="0 0 126 59" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-mergu">
+            <path d="M17.3364 0L12.5307 27.375L11.3643 34.4243L10.2043 27.7893L5.30928 0L4.72928 0.082858H0V58.3957H5.30928V30.855L8.62998 49.855H14.0221L17.4193 30.4407V58.4786H22.7286V0.082858H18.0057L17.3364 0Z" fill="#FF0000"/>
+            <path d="M46.7032 0.16571H36.8368H32.6875V58.4786H37.9968H46.7032V53.1693H37.9968V31.7665H45.0461V26.4636H37.9968V5.47499H46.7032V0.16571Z" fill="#FF0000"/>
+            <path d="M70.0984 0.16571H56.6562V58.4786H61.9655V32.1871H67.8548V58.4786H73.247V32.0214L70.5127 29.3636L73.247 26.6293V3.23783L70.0984 0.16571ZM67.8548 5.47499V26.7121H61.9655V5.47499H67.8548Z" fill="#FF0000"/>
+            <path d="M86.3517 0.16571L83.2031 3.23783V55.4129L86.3517 58.4786H96.4731L99.6281 55.4129V31.8493H91.1639V37.1586H94.236V53.1693H88.5124V5.47499H94.236V16.7564H99.6281V3.23783L96.4731 0.16571H86.3517Z" fill="#FF0000"/>
+            <path d="M126.003 0.16571H120.611V53.1693H114.887V0.16571H109.578V55.4129L112.733 58.4786H122.855L126.003 55.4129V0.16571Z" fill="#FF0000"/>
+            </svg>
+            
+    </a>
+
+    <buttom aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu-mobile" aria-expanded="false">
+            
+        <div id="hamburguer">
+            <div class="hamburguer-span"></div>
+            <div class="hamburguer-span"></div>
+            <div class="hamburguer-span"></div>
+        </div> 
+        
+    </buttom>
+
+
+        <div id="header-menu" role="menu">
+            <ul class="menu-lista font-menu">
+    
+                <li><a href="#sobre" class="menu-btn">Sobre</a></li>
+                <li><a href="#portfolio" class="menu-btn">Portfólio</a></li>
+               <li><a href="#servicos" class="menu-btn">Serviços</a></li>
+                <li><a href="#contato" class="menu-contato-btn">Contato</a></li>
+            </ul>
+        </div>
+    
+    
+    </nav>
+
+   
+
+    </header>
+
+
+
+
+
+
+
+
+    <div class="introducao-bg">
+
+       
+            <div class="introducao container">
+              
+                
+
+
+                    <h1 class="fontfont-titulo-gg cor-1">Desenvolvedora Web e Designer
+                    </h1>
+    
+              <p class="font-texto-intro cor-5">Trabalho como freelancer criando projetos digitais para todo o Brasil.
+              </p>
+
+             
+        
+            </div>
+   
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="letreiro-bg">
+
+   
+    <div class="letreiro">
+     
+       <div class="letreiro-texto container-header">
+   
+           <span class="font-jobs jobs-lado">jobs</span>
+   
+           <div class="circle-letreiro">  
+          
+               <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <circle cx="15" cy="15" r="15" fill="#FF0000"/>
+               </svg>
+              
+           </div>
+
+           <span class="font-jobs jobs-centro">jobs</span>
+
+        
+         <div class="circle-letreiro">
+               <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <circle cx="15" cy="15" r="15" fill="#FF0000"/>
+               </svg>
+           </div>
+   
+           <span class="font-jobs jobs-lado">jobs</span>
+               
+     
+       
+   
+   </div>
+   
+   
+    </div>
+   
+   </div>
+   
+   <section class="portfolio-bg" id="portfolio">
+    <div class="portfolio container">
+
+
+
+        <div class="portfolio-conteudo">
+
+            <div class="portfolio-conteudo-img">
+            
+            <div class="portfolio-cliente">
+                <picture>
+                    <img src="img/marcas/logo-deep.jpg" alt="" class="portfolio-img">
+                
+                </picture>
+
+                <div class="portfolio-descricao">
+                    <span class="portolio-span-servico font-span-servico">logomarca </span>
+                    <span class="font-span-cliente portolio-span-cliente">Deep</span>
+                </div>
+
+            </div>
+
+
+                <div class="portfolio-cliente">
+                    <picture>
+                        <img src="img/marcas/code-cafe.jpg" alt="" class="portfolio-img">
+                     
+                    </picture>
+
+                    <div class="portfolio-descricao">
+                        <span  class="portolio-span-servico font-span-servico">logomarca</span>
+                        <span class="font-span-cliente portolio-span-cliente">code e café</span>
+                    </div>
+                </div>
+             
+            
+            </div>
+
+            
+            <div class="portfolio-conteudo-img">
+            
+                <div class="portfolio-cliente">
+                    <picture>
+                        <img src="img/marcas/tecacto.jpg" alt="" class="portfolio-img">
+                    </picture>
+    
+                    <div class="portfolio-descricao">
+                        <span class="portolio-span-servico font-span-servico">logomarca e site</span>
+                        <span class="font-span-cliente portolio-span-cliente">Tecacto</span>
+                    </div>
+    
+                </div>
+    
+    
+                    <div class="portfolio-cliente">
+                        <picture>
+                            <img src="img/marcas/passear-logo.jpg" alt="" class="portfolio-img">
+                        </picture>
+    
+                        <div class="portfolio-descricao">
+                            <span  class="portolio-span-servico font-span-servico">logomarca e site</span>
+                            <span class="font-span-cliente portolio-span-cliente">passear é o bicho</span>
+                        </div>
+                    </div>
+                 
+                
+                </div>
+         
+
+                <div class="portfolio-conteudo-img">
+            
+                    <div class="portfolio-cliente">
+                        <picture>
+                            <img src="img/marcas/pedro-personal-trainer.jpg" alt="" class="portfolio-img">
+                        </picture>
+        
+                        <div class="portfolio-descricao">
+                            <span class="portolio-span-servico font-span-servico">logomarca</span>
+                            <span class="font-span-cliente portolio-span-cliente">Pedro Ravi</span>
+                        </div>
+        
+                    </div>
+        
+        
+                        <div class="portfolio-cliente">
+                            <picture>
+                                <img src="img/marcas/mateiros-logo.jpg" alt="" class="portfolio-img">
+                            </picture>
+        
+                            <div class="portfolio-descricao">
+                                <span  class="portolio-span-servico font-span-servico">logomarca e site</span>
+                                <span class="font-span-cliente portolio-span-cliente">Mateiros</span>
+                            </div>
+                        </div>
+                     
+                    
+                    </div>
+             
+       
+
+
+                    <div class="portfolio-conteudo-img">
+            
+                        <div class="portfolio-cliente">
+                            <picture>
+                                <img src="img/marcas/mare-logo.jpg" alt="" class="portfolio-img">
+                            </picture>
+            
+                            <div class="portfolio-descricao">
+                                <span class="portolio-span-servico font-span-servico">logomarca</span>
+                                <span class="font-span-cliente portolio-span-cliente">Maré</span>
+                            </div>
+            
+                        </div>
+            
+            
+                            <div class="portfolio-cliente">
+                                <picture>
+                                    <img src="img/marcas/mergu-porreta-logo.jpg" alt="" class="portfolio-img">
+                                </picture>
+            
+                                <div class="portfolio-descricao">
+                                    <span  class="portolio-span-servico font-span-servico">logomarca</span>
+                                    <span class="font-span-cliente portolio-span-cliente">mergu porreta</span>
+                                </div>
+                            </div>
+                         
+
+                        </div>
+                 
+
+
+                        
+                    <div class="portfolio-conteudo-img">
+            
+                        <div class="portfolio-cliente">
+                            <picture>
+                                <img src="img/marcas/perfil.jpg" alt="" class="portfolio-img">
+                            </picture>
+            
+                            <div class="portfolio-descricao">
+                                <span class="portolio-span-servico font-span-servico">logomarca</span>
+                                <span class="font-span-cliente portolio-span-cliente">perfil</span>
+                            </div>
+            
+                        </div>
+            
+            
+                            <div class="portfolio-cliente">
+                                <picture>
+                                    <img src="img/marcas/bbq.jpg" alt="" class="portfolio-img">
+                                </picture>
+            
+                                <div class="portfolio-descricao">
+                                    <span  class="portolio-span-servico font-span-servico">logomarca</span>
+                                    <span class="font-span-cliente portolio-span-cliente">monkeys bbq</span>
+                                </div>
+                            </div>
+                         
+
+                        </div>
+                 
+                
+
+
+        </div>
+
+
+
+    </div>
+
+</section>
+
+
+
+
+
+<section  id="sobre"  class="sobre-bg">
+
+    <div class="sobre container">
+
+            <div class="sobre-titulo">       
+            <h2 class="fontfont-titulo-ggl-h2 cor-5">Sobre mim<span class="underline">_</span></h2>
+            </div> 
+
+
+<div class="sobre-texto">
+<p class=" font-texto sobre-texto-p cor-7">
+   Sou Camila Mergulhão (Mergu), nascida e criada em Recife. Atuo como front-end e designer de forma independente.
+</p>
+
+<p class="font-texto sobre-texto-p cor-7">
+    Minha carreira sempre teve uma ligação forte com design. Já trabalhei como diretora de arte em agência de publicidade, designer em gráficas e tive a saudosa "oficina mergu", onde eu criava peças decorativas e restaurava objetos antigos. Era um verdadeiro sucesso.
+</p>
+
+
+<p class="font-texto sobre-texto-p cor-7">
+    Atualmente, uno o design com a tecnologia, criando projetos digitais para autônomos, empresas e agências de todo o Brasil. 
+</p>
+
+
+
+<p class="font-texto sobre-texto-p cor-7">Como ninguém é de ferro... Durante meu tempo livre, sou uma atleta versátil. Pratico corrida, remo, ciclismo e trilhas.
+Você tem Strava? Me segue lá.
+</p>
+
+
+<a href="https://www.strava.com/athletes/112329545" target="_blank" class="link-strava">
+
+    <svg width="70" height="14.7" viewBox="0 0 120 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="mudar">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M107.895 0.0317383L120 23.8305H112.775L107.966 14.2684L103.087 23.8305H95.8617L107.895 0.0317383Z" fill="#FF0000"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M91.1227 25.2041L103.227 1.39746H96.0025L91.1938 10.9596L86.314 1.39746H79.0891L91.1227 25.2041Z" fill="#FF0000"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9257 7.7538H27.5426V23.8618H35.0992V7.7538H41.7161V1.39746H20.9257V7.7538Z" fill="#FF0000"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3072 15.9661C12.1284 16.1319 14.2445 16.5425 13.676 17.6795C13.0048 19.006 8.18822 17.9243 6.77483 17.2926C4.95084 16.4082 4.95873 16.4082 4.0112 15.7055L0 20.5221C3.95593 23.1673 6.45109 24.249 11.5046 24.2175C16.3922 24.1938 21.043 22.3777 21.3668 17.411C21.8089 10.5415 15.6184 10.4151 10.7939 9.09648C10.0359 8.89118 8.66988 8.6464 8.90677 7.58833C9.09627 6.77503 10.9282 6.91716 11.6388 6.98823C13.5102 7.17773 15.729 8.0463 17.1818 9.08858L20.8614 4.07458C17.5135 1.76103 14.5998 0.852982 10.5334 0.963527C5.89836 1.08986 1.55553 2.94544 1.22389 8.21212C0.876464 13.8815 6.95644 15.0975 11.3072 15.9661Z" fill="#FF0000"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M62.4711 21.7932L58.5942 16.179C59.3443 15.7763 59.6127 15.6658 60.3155 15.0894C61.8 13.8734 62.5659 12.5548 62.8975 10.6439C63.3792 7.81711 62.4869 5.21141 60.2839 3.38741C58.6494 2.04508 55.9016 1.3976 53.6512 1.3976H41.8782V23.8619H49.3715V17.4424C51.2508 17.4424 50.856 17.2687 51.4561 18.1689L55.0172 23.5619C55.1436 23.7672 55.1436 23.8619 55.4515 23.8619H68.4879L73.573 14.2366L78.5159 23.8619H85.6145L73.5651 0L62.4711 21.7932ZM52.909 12.0336H49.3715V7.68288H52.4431C53.817 7.68288 55.4989 8.0461 55.4515 9.75165C55.4041 11.2914 54.4645 12.0336 52.909 12.0336Z" fill="#FF0000"/>
+        </svg>
+        
+    
+
+</a>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+<section class="servicos-bg" id="servicos">
+    <div class="servicos container"> 
+      
+<div class="servicos-titulo">
+    <h2 class="fontfont-titulo-ggl-h2 cor-5">Faço<span class="underline">_</span></h2>
+</div> 
+
+<div class="box-grupo">
+<div class="box-teste">
+<h3>Sites</h3>
+<p>01.</p>
+</div>
+<hr class="linha-divisao">
+<div class="box-teste">
+<h3>lojas virtuais</h3>
+<p>02.</p>
+</div>
+<hr class="linha-divisao">
+<div class="box-teste">
+    <h3>logotipos</h3>
+    <p>03.</p>
+    </div>
+    <hr class="linha-divisao">
+    <div class="box-teste">
+        <h3>ui design</h3>
+        <p>04.</p>
+        </div>
+</div>
+    
+
+
+
+    </div>         
+
+   </section>
+
+
+
+<div class="letreiro-contato-bg">
+
+   
+    <div class="letreiro-contato container">
+     
+
+
+
+   <ul class="letreiro-contato-texto ">
+   
+        
+
+
+    <li class="talks-box">  
+   
+     <p class="font-contato-letreiro">Let´s talk</p>
+ 
+     </li>
+
+   
+
+    <li class="talks-box">
+
+     <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="bolinha">
+         <circle cx="15" cy="15" r="15" fill="#FF0000"/>
+         </svg>
+
+    </li>
+
+
+    <li class="talks-box">
+
+        <p class="font-contato-letreiro">vamos conversar</p>
+   </li>
+
+
+   <li class="talks-box">
+
+     <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="bolinha">
+         <circle cx="15" cy="15" r="15" fill="#FF0000"/>
+         </svg>
+
+    </li>
+
+    
+
+  <li class="talks-box">
+     <p class="font-contato-letreiro">Let´s talk</p>
+        <!-- <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="15" cy="15" r="15" fill="#FF0000"/>
+        </svg> -->
+    </li>
+
+
+    <li class="talks-box">
+
+     <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="bolinha">
+         <circle cx="15" cy="15" r="15" fill="#FF0000"/>
+         </svg>
+
+    </li>
+
+    
+    <li class="talks-box">
+
+        <p class="font-contato-letreiro">vamos conversar</p>
+   </li>
+   
+   <li class="talks-box">
+
+    <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="bolinha">
+        <circle cx="15" cy="15" r="15" fill="#FF0000"/>
+        </svg>
+
+   </li>
+
+
+   <li class="talks-box">
+    <p class="font-contato-letreiro">Let´s talk</p>
+       <!-- <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <circle cx="15" cy="15" r="15" fill="#FF0000"/>
+       </svg> -->
+   </li>
+
+
+   <li class="talks-box">
+
+    <svg width="20" height="20" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="bolinha">
+        <circle cx="15" cy="15" r="15" fill="#FF0000"/>
+        </svg>
+
+   </li>
+
+<li class="talks-box">
+
+    <p class="font-contato-letreiro">vamos conversar</p>
+</li>
+
+
+
+</ul>
+
+
+
+          
+    
+
+</div>
+
+
+
+
+   
+</ul>
+   
+   </div>
+
+
+
+
+
+
+    
+    <footer class="footer-bg" id="contato">
+       <div class="footer container">
+
+    <!-- <div class="footer-logo">
+        <img src="mergu-logo.svg" alt="Mergu" width="136" height="32" >
+    </div> -->
+
+
+    <div class="footer-infos">
+      
+
+         <a  href="https://wa.me//558193955101" target="_blank"  class="footer-infos-contato">
+
+        <div class="footer-infos-icones">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3103 39.0989L14.1422 39.5527C17.0538 41.2921 20.3814 42.2374 23.7846 42.2374C34.1832 42.2374 42.6912 33.7673 42.6912 23.3308C42.6912 12.8943 34.1832 4.42415 23.7846 4.42415C13.3481 4.42415 4.87791 12.8943 4.87791 23.3308C4.87791 26.7718 5.82325 30.175 7.63828 33.1244L8.12986 33.9185L6.23919 40.9896L13.3103 39.0989ZM0 47.2288L3.4032 34.5992C1.47472 31.1203 0.453759 27.2634 0.453759 23.3308C0.453759 10.4743 10.928 0 23.7846 0C36.6411 0 47.0775 10.4743 47.0775 23.3308C47.0775 36.1873 36.6411 46.6238 23.7846 46.6238C19.9276 46.6238 16.1085 45.6784 12.7053 43.8256L0 47.2288Z" fill="#FF0000"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M32.4447 26.5819C31.4994 25.9769 30.2515 25.3718 29.1171 25.8256C28.2474 26.1659 27.6802 27.5272 27.113 28.2078C26.8484 28.586 26.508 28.6238 26.0543 28.4725C22.8023 27.1491 20.3067 24.9937 18.4916 22.0065C18.1891 21.5149 18.2647 21.1746 18.6051 20.7208C19.1723 20.078 19.8529 19.3595 20.0041 18.4898C20.1554 17.6579 19.7395 16.637 19.3991 15.8807C18.9076 14.8976 18.416 13.4985 17.4328 12.9313C16.5253 12.4397 15.3531 12.7044 14.559 13.3472C13.1599 14.4816 12.4793 16.2588 12.5171 18.0361C12.5171 18.5276 12.5549 19.0192 12.7062 19.5108C12.9709 20.6452 13.5003 21.7418 14.1053 22.7627C14.559 23.519 15.0506 24.2753 15.58 24.9937C17.3194 27.376 19.4748 29.4179 22.0083 30.9682C23.2561 31.7245 24.6174 32.4051 26.0165 32.8589C27.5668 33.3883 28.9659 33.9177 30.6675 33.6151C32.4447 33.2748 34.1841 32.1782 34.8648 30.4766C35.0916 29.9473 35.2051 29.3801 35.0916 28.8507C34.827 27.7541 33.3522 27.1113 32.4447 26.5819Z" fill="#FF0000"/>
+                </svg>
+                
+        </div>
+
+        <div class="footer-infos-texto"> 
+        
+            <small>WhatsApp_</small>
+            <span>81 99395.5101</span>
+          
+         </div>
+        
+
+         </a>
+        
+        
+  
+
+
+
+         <a  href="mailto:contato@mergu.com.br" target="_blank"  class="footer-infos-contato">
+
+            <div class="footer-infos-icones">
+                <svg width="51" height="40" viewBox="0 0 51 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M47.1685 32.5039C47.1685 34.6205 45.4299 36.3213 43.3512 36.3213H7.29449C5.17795 36.3213 3.47717 34.6205 3.47717 32.5039V7.33228C3.47717 6.80315 3.59055 6.31181 3.77953 5.89606L19.011 23.1685C20.5984 24.9827 22.9039 26.0409 25.3228 26.0409C27.7417 26.0409 30.0472 24.9827 31.6346 23.1685L46.8661 5.89606C47.0551 6.31181 47.1685 6.80315 47.1685 7.33228V32.5039ZM43.3512 3.51496C43.6535 3.51496 43.9181 3.55276 44.2205 3.62835L28.989 20.863C28.0819 21.9213 26.7213 22.526 25.3228 22.526C23.9244 22.526 22.5638 21.9213 21.6567 20.863L6.4252 3.62835C6.72756 3.55276 6.99213 3.51496 7.29449 3.51496H43.3512ZM43.3512 0H7.29449C3.25039 0 0 3.28819 0 7.33228V32.5039C0 36.548 3.25039 39.7984 7.29449 39.7984H43.3512C47.3953 39.7984 50.6457 36.548 50.6457 32.5039V7.33228C50.6457 3.28819 47.3953 0 43.3512 0Z" fill="#FF0000"/>
+                    </svg>
+                    
+                    
+            </div>
+    
+            <div class="footer-infos-texto"> 
+            
+                <small>E-mail_</small>
+                <span>contato@mergu.com.br</span>
+              
+             </div>
+            
+    
+             </a>
+
+
+
+
+             <a  href="https://pt.wikipedia.org/wiki/Recife" target="_blank" class="footer-infos-contato">
+
+                <div class="footer-infos-icones">
+                    <svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.5372 2.79489C8.50488 2.79489 2.76484 8.50488 2.76484 15.5372C2.76484 21.0368 11.2096 31.6754 15.5372 36.544C19.8648 31.6754 28.3095 21.0368 28.3095 15.5372C28.3095 8.50488 22.5695 2.79489 15.5372 2.79489ZM15.5372 40C15.1465 40 14.7859 39.8197 14.5154 39.5492C13.9143 38.9181 0 23.8317 0 15.5372C0 6.9722 6.9722 0 15.5372 0C24.1022 0 31.0744 6.9722 31.0744 15.5372C31.0744 23.8317 17.16 38.9181 16.559 39.5492C16.2885 39.8197 15.9279 40 15.5372 40Z" fill="#FF0000"/>
+                        <path d="M15.5335 10.6689C13.2195 10.6689 11.3261 12.5622 11.3261 14.8763C11.3261 17.1903 13.2195 19.0836 15.5335 19.0836C17.8476 19.0836 19.7409 17.1903 19.7409 14.8763C19.7409 12.5622 17.8476 10.6689 15.5335 10.6689ZM15.5335 21.8785C11.6868 21.8785 8.53125 18.723 8.53125 14.8763C8.53125 10.9995 11.6868 7.87402 15.5335 7.87402C19.3802 7.87402 22.5358 10.9995 22.5358 14.8763C22.5358 18.723 19.3802 21.8785 15.5335 21.8785Z" fill="#FF0000"/>
+                        </svg>
+           
+                </div>
+        
+                <div class="footer-infos-texto"> 
+                
+                    <small>Estou em_</small>
+                    <span>Recife, PE</span>
+                  
+                 </div>
+                
+        
+                 </a>
+    
+
+
+
+    </div>
+
+
+</div>
+
+
+    
+    
+ 
+</footer>
+
+
+
+
+
+
+
+<script src="./js/script.js"></script>
+</body>
+</html>

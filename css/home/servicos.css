@@ -1,0 +1,166 @@
+.servicos-bg{
+background-color: var(--cor-0);
+}
+
+.servicos{
+padding-top: 80px;
+padding-bottom: 250px;
+background-color: var(--cor-0);
+}
+
+.servicos-titulo{
+display: flex;
+justify-content: left;
+margin-bottom: 100px;
+}
+
+
+
+.servicos-conteudo{
+display: flex;
+margin-top: 40px;
+}
+
+.servicos-itens-box{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+
+/* -----------------------------------------*/
+
+.box-grupo{
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin-top: 60px;
+}
+
+
+
+.box-teste{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.box-teste h3, p{
+font-size: 50px;
+font-family: 'IBM Plex Sans', sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+color: var(--cor-brand);
+}
+
+
+
+
+/* -----------------------------------------*/
+
+
+.servicos-itens{
+padding-top: 200px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 30px;
+border: solid 4px var(--cor-2); 
+width: 30%;
+background-color: transparent;
+}
+
+.servicos-itens-logotipo{
+padding-top: 200px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 30px;
+width: 30%;
+
+background-color: var(--cor-2);
+}
+
+
+.servicos-itens h3{
+margin-bottom: 10px;
+}
+
+.servicos-itens-logotipo h3{
+margin-bottom: 10px;
+
+
+}
+
+
+.servicos-icon{
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+justify-items: center;
+
+}
+
+.servicos-icon svg{
+width: 40px;
+height: 40px;
+}
+
+
+
+
+@media(max-width: 980px){
+.box-teste h3, p{
+font-size: 45px;
+}
+}
+
+
+@media(max-width:768px){
+.servicos-titulo{
+margin-bottom: 80px;
+}
+
+.box-teste h3, p{
+font-size: 38px;
+}
+
+
+.servicos{
+padding-top: 60px;
+padding-bottom: 200px;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+.linha-divisao{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.box-grupo{
+gap: 25px;
+}
+}
+
+
+@media(max-width: 550px){
+.servicos{
+padding-top: 60px;
+padding-bottom: 150px;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+
+.box-teste h3, p{
+font-size: 30px;
+}
+
+.servicos-titulo{
+margin-bottom: 60px;
+}
+
+.box-grupo{
+gap: 20px;
+}
+}

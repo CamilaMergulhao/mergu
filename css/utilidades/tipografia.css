@@ -1,0 +1,191 @@
+.fontfont-titulo-gg{
+/* font-family: 'IBM Plex Mono', monospace; */
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 2.5rem;
+font-weight: 500;
+line-height: 1;
+}
+
+
+
+
+.fontfont-titulo-ggl{
+font-family: 'Rubik', sans-serif;
+font-size: 3.375rem;
+font-weight: 500;
+line-height: 1.125;
+}
+
+
+
+.fontfont-titulo-ggl-h2{
+/* font-family: 'IBM Plex Mono', monospace; */
+font-family: 'IBM Plex Sans', sans-serif;
+
+font-size: 2rem;
+font-weight: 700;
+line-height: 1.125;
+/* text-transform: uppercase; */
+}
+
+
+
+
+.font-jobs{
+font-family: 'Rubik', sans-serif;
+font-size: 2rem;
+font-weight: 700;
+}
+
+
+
+.font-contato-letreiro{
+font-family: 'Rubik', sans-serif;
+font-size: 2rem;
+font-weight: 500;
+}
+
+
+
+.font-titulo-faq{
+font-family: 'Rubik', sans-serif;
+font-size: 1.5rem;
+font-weight: 400;
+}
+
+/*font texto*/
+.font-texto-intro{
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.6rem;
+}
+
+
+
+.font-texto{
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.5rem;
+text-transform: none;
+}
+    
+
+
+.font-texto-g-itens{
+font-family: 'Rubik', sans-serif;;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.5rem;
+}
+
+
+.font-texto-caps-g{
+font-family: 'Rubik', sans-serif;
+/* font-size: 1.125rem; */
+font-size: 1.25;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+
+/*font meu*/
+.font-menu{
+font-family: 'IBM Plex Sans', sans-serif;
+text-transform: uppercase;
+font-size: 1rem;
+font-weight: 400;
+letter-spacing: 1px;
+}
+
+
+.font-span-servico{
+font-family: 'Bai Jamjuree', sans-serif;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.font-span-cliente{
+font-family: 'Bai Jamjuree', sans-serif;
+font-size: 1.125rem;
+font-weight: 500;
+}
+
+
+
+
+
+@media(max-width: 980px){
+.fontfont-titulo-gg{
+font-size: 2rem
+}
+
+.font-contato-letreiro{
+font-size: 1.8rem;
+}
+}
+
+
+
+
+
+@media (max-width: 900px){
+.fontfont-titulo-ggl{
+font-size: 3rem;
+line-height: 1.125;
+}
+}
+
+
+
+
+@media(max-width: 768px){
+.font-texto{
+font-size: 1rem;
+line-height: 1.5rem;
+}
+
+.fontfont-titulo-ggl-h2{
+font-size: 1.5rem;
+}
+}
+
+
+
+
+@media (max-width: 760px){
+.fontfont-titulo-ggl{
+font-size: 2.5rem;
+line-height: 1.2;
+}
+
+.font-texto-g{
+font-family: 'Rubik', sans-serif;;
+font-size: 1rem;
+line-height: 1.5;
+}
+}
+
+
+@media(max-width: 750px){
+.font-span-cliente{
+font-size: 1rem;
+}
+}
+
+@media (max-width: 550px){
+.fontfont-titulo-ggl{
+font-size: 2rem;
+line-height: 1.2;
+}
+}
+
+
+
+
+
+
+
+

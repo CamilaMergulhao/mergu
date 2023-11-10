@@ -1,0 +1,231 @@
+.header-bg{
+background-color: var(--cor-cinza);
+
+}
+
+.header-nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+    
+
+.header-nav ul li{
+list-style: none;
+}
+
+
+.menu-contato-btn{
+background-color: transparent;
+border: 2px solid var(--cor-brand);
+color: var(--cor-brand);
+}
+
+.menu-contato-btn:hover{
+background-color: var(--cor-brand);
+color: var(--cor-0);
+text-decoration: none;
+}
+
+#nav{
+padding-top: 10px;
+}
+
+.menu-lista{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+gap: 30px;
+padding-left: 0px;
+}
+
+.menu-btn{
+font-size: 1rem;
+color: var(--cor-5);
+
+}
+
+
+.menu-btn:hover{
+text-decoration: underline;
+color: var(--cor-brand);
+}
+
+
+#header-menu{
+display: flex;
+gap: 40px;
+align-items: center;
+}
+
+
+.logo-mergu{
+width: 80px;
+}
+
+#header-menu a{
+padding: .5rem;
+display: block;
+}
+    
+#btn-mobile{
+display: none;
+}
+
+.logo-mergu-link-scroll{
+transition: 0.25s;
+opacity: 0;
+display: none;
+}
+    
+.logo-mergu-link-scroll.ativarScroll{
+position: fixed;
+opacity: 1;
+display: block;
+}
+
+
+
+
+
+
+#btn-mobile {
+display: flex;
+align-items: center;
+justify-content: center; 
+height: 50px;
+width: 50px;
+cursor: pointer; 
+background:transparent;
+display: none;
+border: none;
+z-index: 4;
+}
+
+
+
+#hamburguer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 50px;
+width: 50px;
+gap: 4px;
+}
+
+.hamburguer-span{
+height: 3.5px;
+width: 25px;
+background-color: var(--cor-brand);
+display: block;
+transition: .3s;
+position: relative;
+}
+
+
+#nav.active .hamburguer-span:nth-child(1){
+background-color: transparent;
+}
+
+#nav.active .hamburguer-span:nth-child(2){
+transform: rotate(135deg);
+}
+
+#nav.active .hamburguer-span:nth-child(3){
+transform: rotate(-135deg);
+top: -7px;
+}
+
+
+
+    
+@media(max-width:980px){
+#btn-mobile{
+display: block;
+z-index: 61;
+}
+
+#nav.active .hamburguer-span{
+background-color: var(--cor-0);
+}
+
+
+.menu-lista{
+display: none;
+}
+
+#header-menu {
+display: block;
+position: absolute;
+width: 100%;
+height: 0;
+overflow-y: hidden;
+visibility: hidden;
+margin: 0;
+z-index: 60;
+transform: translate(100%);
+transition: 0.1s;
+}
+ 
+
+
+#nav.active #header-menu {
+height: 100vh;
+overflow-y: auto;
+visibility: visible;
+z-index: 3;
+background-color: var(--cor-brand);
+transform: translate(0);
+transition: 0.1s;
+}
+  
+#nav.active .menu-lista {
+display: block;
+position: relative;  
+top: 50%;
+left: 50%;
+transform: translate(-50%); 
+height: auto;
+}
+
+
+.menu-lista a{
+display: block;
+text-align: center;
+font-size: 1.5rem;
+color: white;
+}
+
+
+.menu-lista a:hover{
+color: white;
+text-decoration: underline;
+}
+
+
+.menu-contato-btn{
+border: none;
+color: white;
+}
+}
+
+
+
+@media(max-width: 768px){
+.menu-lista a{
+font-size: 1.125rem;
+}
+}
+
+
+
+@media(max-width: 450px){
+.logo-mergu{
+width: 70px;
+}
+}
+    
+    

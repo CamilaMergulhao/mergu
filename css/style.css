@@ -1,0 +1,34 @@
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
+
+
+/*Utilidades*/
+@import "utilidades/componentes.css";
+@import "utilidades/tipografia.css";
+@import "utilidades/cores.css";
+
+/*home*/
+@import "home/introducao.css";
+@import "home/letreiro.css";
+@import "home/servicos.css";
+@import "home/portfolio.css";
+@import "home/sobre.css";
+@import "home/avuur.css";
+@import "home/faq.css";
+@import "home/contato.css";
+@import "home/letreiro-contato.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
